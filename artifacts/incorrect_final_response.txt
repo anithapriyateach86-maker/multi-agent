@@ -1,0 +1,1 @@
+Your order is delayed because allocation is pending. We are checking availability.

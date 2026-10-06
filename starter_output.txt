@@ -1,0 +1,6 @@
+=== Broken Multi-Agent Workflow ===
+PLANNER -> Created ORDER_ANALYSIS and INVENTORY tasks for ORD-7841
+ORDER_ANALYSIS -> Order ORD-7841 is delayed because allocation is pending.
+RESPONSE -> Order ORD-7841 is delayed because allocation is pending. INVENTORY MISSING
+INVENTORY -> Product SKU-442 has 0 available units; replenishment expected tomorrow.
+Execution count: 4

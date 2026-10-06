@@ -1,0 +1,7 @@
+Current broken flow:
+Planner -> Order Analysis -> Response -> Inventory
+
+Current configuration:
+PLANNER=ORDER_ANALYSIS
+ORDER_ANALYSIS=RESPONSE
+RESPONSE=INVENTORY

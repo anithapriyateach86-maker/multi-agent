@@ -1,0 +1,1 @@
+package com.fde.ho2.agent; import com.fde.ho2.model.*; import java.util.Map; public class OrderAnalysisAgent implements Agent { public AgentType type(){return AgentType.ORDER_ANALYSIS;} public AgentResult execute(String id,Map<AgentType,AgentResult> d){return new AgentResult(type(),"Order "+id+" is delayed because allocation is pending.");}}

@@ -1,0 +1,1 @@
+package com.fde.ho2.agent; import com.fde.ho2.model.*; import java.util.Map; public class PlannerAgent implements Agent { public AgentType type(){return AgentType.PLANNER;} public AgentResult execute(String id,Map<AgentType,AgentResult> d){return new AgentResult(type(),"Created ORDER_ANALYSIS and INVENTORY tasks for "+id);}}

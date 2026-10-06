@@ -1,0 +1,7 @@
+ORD-7841
+09:00 PlannerAgent: created ORDER_ANALYSIS and INVENTORY
+09:01 OrderAnalysisAgent: allocation is pending
+09:02 ResponseAgent: final response generated using only Order Analysis
+09:03 InventoryAgent: SKU-442 has 0 units; replenishment tomorrow
+
+The final response is therefore missing the inventory finding.

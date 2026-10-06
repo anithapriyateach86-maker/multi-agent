@@ -1,0 +1,1 @@
+package com.fde.ho2.agent; import com.fde.ho2.model.*; import java.util.Map; public class InventoryAgent implements Agent { public AgentType type(){return AgentType.INVENTORY;} public AgentResult execute(String id,Map<AgentType,AgentResult> d){return new AgentResult(type(),"Product SKU-442 has 0 available units; replenishment expected tomorrow.");}}
